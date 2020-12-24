@@ -130,14 +130,14 @@ p {
 	border: 0;
 	padding: 0 30px;
 	font-size: 14px;
-	height: 54px;
-	line-height: 54px;
-	border-radius: 4px;
-    color: $heading-color;
+	height: 44px;
+	line-height: 44px;
+	border-radius: 50px;
+    color: $white;
     cursor: pointer;
     z-index: 5;
     @include transition(0.4s);
-	background-color: $white;
+	background-color:$theme-color;
 	@include box-shadow (0px 10px 30px 0px rgba(0, 0, 0, 0.05));
 	position: relative;
 	z-index: 5;
@@ -152,7 +152,7 @@ p {
         height: 0;
         padding: 50%;
         border-radius: 50%;
-        background-color: $theme-color;
+        background-color: $theme-secondary;
         z-index: -1;
         @include transform(translate3d(-50%, -50%, 0) scale(0));
         @include transition(0.4s);

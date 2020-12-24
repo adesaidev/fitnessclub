@@ -12,7 +12,7 @@
     width: 100%;
     z-index: 999;
     padding: 23px 0;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    
 
     &.sticky{
         position: fixed;
@@ -42,7 +42,7 @@
         & .toggler-icon {
             width: 30px;
             height: 2px;
-            background-color: $white;
+            background-color: $theme-secondary;
             display: block;
             margin: 5px 0;
             position: relative;
@@ -117,7 +117,7 @@
                 font-size: 16px;
                 font-weight: 700;
                 position: relative;      
-                color: $white;       
+                color: $theme-secondary;       
                 @include transition(0.3s);  
                 
                 @media #{$md} {
